@@ -1,4 +1,3 @@
-# credit-card-fraud-detection
 # 不平衡分類：信用卡詐欺偵測
 
 
