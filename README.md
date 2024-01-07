@@ -148,7 +148,7 @@ model.fit(
 )
 ```
 ```
-輸出結果
+
 Epoch 1/30
 112/112 - 3s - loss: 2.3843e-06 - fn: 48.0000 - fp: 30665.0000 - tn: 196764.0000 - tp: 369.0000 - precision: 0.0119 - recall: 0.8849 - val_loss: 0.1229 - val_fn: 5.0000 - val_fp: 1849.0000 - val_tn: 55037.0000 - val_tp: 70.0000 - val_precision: 0.0365 - val_recall: 0.9333 - 3s/epoch - 28ms/step
 Epoch 2/30
