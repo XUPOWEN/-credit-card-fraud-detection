@@ -4,6 +4,7 @@
 # 介紹
 此範例查看 Kaggle 信用卡詐欺偵測 資料集，示範如何針對具有高度不平衡類別的資料訓練分類模型。
 #### Kaggle連結:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+#### creditcard.csv:https://www.kaggle.com/datasets/arockiaselciaa/creditcardcsv
 # 首先，對 CSV 資料進行向量化
 ```
 import csv
