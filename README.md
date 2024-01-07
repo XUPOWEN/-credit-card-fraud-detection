@@ -30,7 +30,7 @@ print("features.shape:", features.shape)
 print("targets.shape:", targets.shape)
 ```
 ```
-輸出結果
+
 HEADER: "Time","V1","V2","V3","V4","V5","V6","V7","V8","V9","V10","V11","V12","V13","V14","V15","V16","V17","V18","V19","V20","V21","V22","V23","V24","V25","V26","V27","V28","Amount","Class"
 EXAMPLE FEATURES: [0.0, -1.3598071336738, -0.0727811733098497, 2.53634673796914, 1.37815522427443, -0.338320769942518, 0.462387777762292, 0.239598554061257, 0.0986979012610507, 0.363786969611213, 0.0907941719789316, -0.551599533260813, -0.617800855762348, -0.991389847235408, -0.311169353699879, 1.46817697209427, -0.470400525259478, 0.207971241929242, 0.0257905801985591, 0.403992960255733, 0.251412098239705, -0.018306777944153, 0.277837575558899, -0.110473910188767, 0.0669280749146731, 0.128539358273528, -0.189114843888824, 0.133558376740387, -0.0210530534538215, 149.62]
 features.shape: (284807, 30)
@@ -48,7 +48,7 @@ print("Number of training samples:", len(train_features))
 print("Number of validation samples:", len(val_features))
 ```
 ```
-輸出結果
+
 Number of training samples: 227846
 Number of validation samples: 56961
 ```
@@ -65,7 +65,7 @@ weight_for_0 = 1.0 / counts[0]
 weight_for_1 = 1.0 / counts[1]
 ```
 ```
-輸出結果
+
 Number of positive samples in training data: 417 (0.18% of total)
 ```
 # 使用訓練集統計數據標準化數據
@@ -95,7 +95,7 @@ model = keras.Sequential(
 model.summary()
 ```
 ```
-輸出結果
+
 Model: "sequential_5"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
