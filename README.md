@@ -226,4 +226,9 @@ Epoch 30/30
 
 以錯誤標記 404 筆合法交易為代價
 
+
+在現實世界中，人們會對第一類給予更高的權重，以反映假陰性比假陽性的成本更高。
+
+下次您的信用卡在網上購物時被拒絕時，這就是原因。
+
 #### 參考網址:https://keras.io/examples/structured_data/imbalanced_classification/
