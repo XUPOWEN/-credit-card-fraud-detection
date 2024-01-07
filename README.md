@@ -1,5 +1,5 @@
 # 不平衡分類：信用卡詐欺偵測
-
+### 11023015江承翰  11024137許珀溫
 
 # 介紹
 此範例查看 Kaggle 信用卡詐欺偵測 資料集，示範如何針對具有高度不平衡類別的資料訓練分類模型。請先下載連結文件到Colaboratory，連結:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
@@ -28,6 +28,7 @@ targets = np.array(all_targets, dtype="uint8")
 print("features.shape:", features.shape)
 print("targets.shape:", targets.shape)
 ```
+## 輸出
 ```
 
 HEADER: "Time","V1","V2","V3","V4","V5","V6","V7","V8","V9","V10","V11","V12","V13","V14","V15","V16","V17","V18","V19","V20","V21","V22","V23","V24","V25","V26","V27","V28","Amount","Class"
@@ -46,6 +47,7 @@ val_targets = targets[-num_val_samples:]
 print("Number of training samples:", len(train_features))
 print("Number of validation samples:", len(val_features))
 ```
+## 輸出
 ```
 
 Number of training samples: 227846
@@ -63,6 +65,7 @@ print(
 weight_for_0 = 1.0 / counts[0]
 weight_for_1 = 1.0 / counts[1]
 ```
+## 輸出
 ```
 
 Number of positive samples in training data: 417 (0.18% of total)
@@ -93,6 +96,7 @@ model = keras.Sequential(
 )
 model.summary()
 ```
+## 輸出
 ```
 
 Model: "sequential_5"
@@ -146,6 +150,7 @@ model.fit(
     class_weight=class_weight,
 )
 ```
+## 輸出
 ```
 
 Epoch 1/30
